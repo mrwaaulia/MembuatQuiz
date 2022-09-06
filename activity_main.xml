@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#C9E4946E">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E8AD9F">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Pusat tata surya adalah?"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/rgJawaban1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/jwb1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asteroid"/>
+
+        <RadioButton
+            android:id="@+id/jwb2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matahari"/>
+
+        <RadioButton
+            android:id="@+id/jwb3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bulan"/>
+    </RadioGroup>
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E8AD9F"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Benda langit yang mengelilingi matahari adalah?"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/rgJawaban2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp">
+
+                    <RadioButton
+                        android:id="@+id/jwb1_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Planet" />
+
+                    <RadioButton
+                        android:id="@+id/jwb2_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pelangi" />
+
+                    <RadioButton
+                        android:id="@+id/jwb3_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Meteor" />
+                </RadioGroup>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E8AD9F">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Satelit yang dimiliki bumi adalah?"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/rgJawaban3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/jwb1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bintang"/>
+
+        <RadioButton
+            android:id="@+id/jwb2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Komet"/>
+
+        <RadioButton
+            android:id="@+id/jwb3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bulan"/>
+    </RadioGroup>
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E8AD9F">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. Bumi berputar pada porosnya selama?"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/rgJawaban4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/jwb1_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18 jam"/>
+
+        <RadioButton
+            android:id="@+id/jwb2_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22 jam"/>
+
+        <RadioButton
+            android:id="@+id/jwb3_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24 jam"/>
+    </RadioGroup>
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E8AD9F">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. Perputaran planet pada porosnya disebut?"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/rgJawaban5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/jwb1_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rotasi"/>
+
+        <RadioButton
+            android:id="@+id/jwb2_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gravitasi"/>
+
+        <RadioButton
+            android:id="@+id/jwb3_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gaya"/>
+    </RadioGroup>
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E8AD9F">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6. Perputaran planet mengelilingi matahari disebut?"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/rgJawaban6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/jwb1_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rotasi"/>
+
+        <RadioButton
+            android:id="@+id/jwb2_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Revolusi"/>
+
+        <RadioButton
+            android:id="@+id/jwb3_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gravitasi"/>
+    </RadioGroup>
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E8AD9F">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7. Planet terdekat dari bumi adalah?"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/rgJawaban7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/jwb1_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jupiter"/>
+
+        <RadioButton
+            android:id="@+id/jwb2_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uranus"/>
+
+        <RadioButton
+            android:id="@+id/jwb3_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mars"/>
+    </RadioGroup>
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E8AD9F">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8. Planet mars disebut dengan planet?"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/rgJawaban8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/jwb1_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hitam"/>
+
+        <RadioButton
+            android:id="@+id/jwb2_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Merah"/>
+
+        <RadioButton
+            android:id="@+id/jwb3_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kuning"/>
+    </RadioGroup>
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E8AD9F">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9. Planet yang mempunyai lapisan menyerupai cincin adalah?"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/rgJawaban9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/jwb1_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saturnus"/>
+
+        <RadioButton
+            android:id="@+id/jwb2_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jupiter"/>
+
+        <RadioButton
+            android:id="@+id/jwb3_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mars"/>
+    </RadioGroup>
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E8AD9F">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10. Planet tempat manusia berkembang biak adalah planet?"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/rgJawaban10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/jwb1_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Merkurius"/>
+
+        <RadioButton
+            android:id="@+id/jwb2_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bumi"/>
+
+        <RadioButton
+            android:id="@+id/jwb3_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Venus"/>
+    </RadioGroup>
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btnJawab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="JAWAB"
+            android:backgroundTint="#E4946E"
+            android:layout_marginBottom="15dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
